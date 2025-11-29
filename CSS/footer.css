@@ -1,0 +1,46 @@
+.footer {
+    background-color: #2b2b2b;
+    width: 100vw;
+    height: fit-content;
+}
+
+.footer-container {
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: #ffffff;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.footer-menu-title{
+    color: #e0e0e0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer-menu-item-container{ 
+    display: flex;
+    flex-direction: column;/*没有作用？*/
+    gap: 15px;/*没有作用？*/
+}
+
+.footer-menu-item{
+    /* margin-top: 7px;
+    margin-bottom: 7px;
+    display: grid; */
+    color: #959595;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+
+}

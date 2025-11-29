@@ -1,0 +1,110 @@
+.top-bg-container { 
+    width: 100%;
+    position: relative;
+    
+}
+.top-bg-container img { 
+    width: 100%;
+    height: 80vh;
+    object-fit: cover ;
+    object-position: center;
+}
+
+.logo-container{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 置顶轮播图下面的一排商标 */
+.logo-img { 
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-img img { 
+    width: calc(100%/8);
+}
+
+
+.top-bg-text{
+    position: absolute;
+    top: 11vw;
+    left: 12vw;
+    color: white;
+    max-width: 500px;
+}
+
+.top-bg-text1{
+    font-size:1.9vw;
+    font-weight: 500;
+}
+
+.top-bg-text2{
+    /* b站学的 */
+    background-image:linear-gradient(to right, #DAF8F7, #85A8FD);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top-bg-text-span1{
+    font-size:1.9vw;
+    font-weight: 500;
+    color: linear-gradient(to right, #DAF8F7, #85A8FD);
+    
+}
+
+.top-bg-text-span2{
+    font-size:5vw;
+    font-weight: 500;
+    color: linear-gradient(to right, #DAF8F7, #85A8FD);
+    
+}
+
+
+.top-bg-text3{
+    color:#c7c7c7
+}
+
+.top-bg-text4{
+   color: #6C7699;
+   font-size: 0.9vw;
+
+}
+
+
+.top-bg-button-group{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    gap: 1.3vw;
+    display: flex;
+}
+
+.top-bg-button1{
+    background: linear-gradient(30deg,#6E8CE5,#344DC7,#C08E92);
+    padding: 1vw 2.5vw;
+    border-radius: 99999999px;
+}
+
+.top-bg-button2{
+    background: #1B1B2B;
+    border: solid 1px white;
+    padding: 1vw 2.5vw;
+    border-radius: 99999999px;
+}
+
+.top-bg-button1:hover{
+    background: linear-gradient(30deg,#8fa8f3,#5a71e3,#e4b9bd);
+}
+
+.top-bg-button2:hover{
+    background: #454560;
+
+}
